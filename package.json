@@ -1,0 +1,30 @@
+{
+  "name": "@fabricelements/message-helpers",
+  "description": "SMS/MMS helpers.",
+  "main": "lib/index.js",
+  "types": "src/index.ts",
+  "author": "The FabricElements Authors",
+  "license": "BSD-3-Clause",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:FabricElements/message-helpers.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tslint": "^5.13.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3.3.3333",
+    "vrsource-tslint-rules": "^6.0.0"
+  },
+  "private": true,
+  "scripts": {
+    "lint": "tslint --project ./tsconfig.json",
+    "lint-fix": "tslint -c tslint.json --project .  --project -t codeFrame --fix",
+    "clear": "rm -rf ./lib",
+    "build": "npm run clear && npm run lint && tsc -p ./tsconfig.json",
+    "tsc": "tsc",
+    "prepare": "npm run build",
+    "start": "node ./lib/index.js"
+  }
+}

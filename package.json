@@ -24,6 +24,6 @@
     "clear": "rm -rf ./lib",
     "build": "npm run clear && npm run lint && tsc -p ./tsconfig.json",
     "tsc": "tsc",
-    "prepare": "npm run build"
+    "postinstall": "npm run build"
   }
 }

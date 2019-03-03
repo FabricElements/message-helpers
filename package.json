@@ -23,7 +23,6 @@
     "lint-fix": "tslint -c tslint.json --project .  --project -t codeFrame --fix",
     "clear": "rm -rf ./lib",
     "build": "npm run clear && npm run lint && tsc -p ./tsconfig.json",
-    "tsc": "tsc",
-    "postinstall": "npm run build"
+    "tsc": "tsc"
   }
 }

@@ -65,8 +65,6 @@ bower_components
 ############################################
 ## Project config
 ############################################
-## Functions folder
-lib/*
 
 ## cron folder
 cron/lib

@@ -10,7 +10,9 @@
     "type": "git",
     "url": "git@github.com:FabricElements/message-helpers.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "libphonenumber-js": "^1.7.9"
+  },
   "devDependencies": {
     "tslint": "^5.13.0",
     "tslint-eslint-rules": "^5.4.0",

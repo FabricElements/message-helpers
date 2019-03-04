@@ -7,8 +7,10 @@
  * Notes:
  * -------------------------------------------
  */
+import checkNumber from "./checkNumber";
 import specialCharToRegular from "./specialCharToRegular";
 
 export {
+  checkNumber,
   specialCharToRegular,
 };

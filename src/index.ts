@@ -9,10 +9,10 @@
  */
 import checkNumber from "./checkNumber";
 import specialCharToRegular from "./specialCharToRegular";
-import * as url from "./url";
+import validateUrl from "./validateUrl";
 
 export {
   checkNumber,
   specialCharToRegular,
-  url,
+  validateUrl,
 };

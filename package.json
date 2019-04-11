@@ -11,12 +11,12 @@
     "url": "git@github.com:FabricElements/message-helpers.git"
   },
   "dependencies": {
-    "libphonenumber-js": "^1.7.9"
+    "libphonenumber-js": "^1.7.15"
   },
   "devDependencies": {
-    "tslint": "^5.13.0",
+    "tslint": "^5.15.0",
     "tslint-eslint-rules": "^5.4.0",
-    "typescript": "^3.3.3333",
+    "typescript": "^3.4.3",
     "vrsource-tslint-rules": "^6.0.0"
   },
   "private": true,
